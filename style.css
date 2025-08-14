@@ -1,0 +1,65 @@
+.container {
+    background-color: rgb(221, 225, 227);
+    width: 1350px;
+    height: 1700px;
+    margin: auto;
+    position: relative;
+}
+.cabecalho {
+    background-color: rgb(224, 226, 227);
+    width: 1350px;
+    height: 90px;
+}
+.esquerdo {
+    background-color: rgb(216, 219, 221);
+    width: 200px;
+    height: 1610px;
+    position: absolute; 
+}
+.meio {
+    width: 950px;
+    height: 1610px;
+    position: absolute;
+    left: 200px;
+}
+.meio-principal {
+    width: 930px;
+    height: 1610px;
+    margin: auto;
+}
+.direito {
+    background-color: rgb(216, 219, 221);
+    width: 200px;
+    height: 1610px;
+    position: absolute;
+    right: 0px;
+}
+footer div {
+    background-color: rgb(196, 198, 201);
+    text-align: center;
+    align-content: center;
+    width: 1350px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+figure {
+    margin: 5px;
+    padding-top: 5px;
+}
+h1, h2, h3 {
+    margin: 0px;
+}
+.trem {
+    text-align: center;
+}
+.direito  h3, .esquerdo h3{
+    text-align: center;
+}
+.direito li, .esquerdo li {
+    padding-top: 20px;
+}
+.direito a, .esquerdo a {
+    text-decoration: none;
+    color: black;
+}
