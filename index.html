@@ -1,22 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Wikipedia</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="short icon" href="https://images.icon-icons.com/2108/PNG/512/wikipedia_icon_130786.png">
+    <title>GitHub - Wikipedia</title>
 </head>
+
 <body>
 
+    <nav>
+        <div class="cabecalho">
+            <div class="logo">
+                <img width="40" height="40" src="assets/img/menu.png" alt="Ícone de um menu">
+                <img width="190" src="assets/img/logo.png" alt="Logo da Wikipedia">
+            </div>
 
-    
+            <div class="pesquisa">
+                <input type="text" placeholder="Pesquisar na Wikipédia">
+                <button type="submit">Pesquisar</button>
+            </div>
+
+            <div class="login">
+                <p><a href="">ENTRAR</a></p>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="conteudo">
+            <div class="topo">
+                <h4>Conteúdo</h4>
+                <button>ocultar</button>
+            </div>
+            <hr>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">História</a></li>
+                <li><a href="">Aquisição pela Microsoft</a></li>
+                <li><a href="">GitHub Copilot</a></li>
+                <li><a href="">Referências</a></li>
+                <li><a href="">Ligações externas</a></li>
+            </ul>
+        </section>
+        <section class="principal"></section>
+        <section class="aspecto">
+            <div class="topo2">
+                <h4>Aspecto</h4>
+                <button>ocultar</button>
+            </div>
+            <hr>
+            <p>Texto</p>
+            <hr>
+            <div class="radio">
+                <form action="">
+                    <div>
+                        <input type="radio" id="pequeno" name="tamanho" value="pequeno">
+                        <label for="pequeno">Pequeno</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="padrao" name="tamanho" value="padrao">
+                        <label for="padrao">Padrão</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="grande" name="tamanho" value="grande">
+                        <label for="grande">Grande</label>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <p>Largura</p>
+            <div class="radio">
+                <form action="">
+                    <div>
+                        <input type="radio" id="padrao" name="largura" value="padrao">
+                        <label for="padrao">Padrão</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="largo" name="largura" value="largo">
+                        <label for="largo">Largo</label>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <p>Cor (beta)</p>
+            <div class="radio">
+                <form action="">
+                    <div>
+                        <input type="radio" id="automatico" name="cor" value="automatico">
+                        <label for="automatico">Automático</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="claro" name="tamanho" value="claro">
+                        <label for="claro">Claro</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="noite" name="tamanho" value="noite">
+                        <label for="noite">Noite</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <div>
             Todos os direitos reservados.<br><br>
-            Imagem de <a href="https://pixabay.com/pt/users/runextreme-862978/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078578">NIRV VANA</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078578">Pixabay</a><br>
-            Imagem de <a href="https://pixabay.com/pt/users/akio_akky1474-37032827/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8044059">akio_akky1474</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8044059">Pixabay</a><br>
+            Imagem de <a
+                href="https://pixabay.com/pt/users/runextreme-862978/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078578">NIRV
+                VANA</a> por <a
+                href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5078578">Pixabay</a><br>
+            Imagem de <a
+                href="https://pixabay.com/pt/users/akio_akky1474-37032827/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8044059">akio_akky1474</a>
+            por <a
+                href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8044059">Pixabay</a><br>
             Texto retirada da <a href="https://pt.wikipedia.org/wiki/Harry_Potter" target="_blank">Wikipedia</a><br>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,65 +1,84 @@
-.container {
-    background-color: rgb(221, 225, 227);
-    width: 1350px;
-    height: 1700px;
-    margin: auto;
-    position: relative;
+/* NAV */
+nav {
+    margin-bottom: 20px;
 }
-.cabecalho {
-    background-color: rgb(224, 226, 227);
-    width: 1350px;
-    height: 90px;
+.cabecalho, .pesquisa, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.esquerdo {
-    background-color: rgb(216, 219, 221);
-    width: 200px;
-    height: 1610px;
-    position: absolute; 
+.logo {
+    align-items: center;
 }
-.meio {
-    width: 950px;
-    height: 1610px;
-    position: absolute;
-    left: 200px;
+.login p {
+    margin-right: 20px;
 }
-.meio-principal {
-    width: 930px;
-    height: 1610px;
-    margin: auto;
-}
-.direito {
-    background-color: rgb(216, 219, 221);
-    width: 200px;
-    height: 1610px;
-    position: absolute;
-    right: 0px;
-}
-footer div {
-    background-color: rgb(196, 198, 201);
-    text-align: center;
-    align-content: center;
-    width: 1350px;
-    height: 100px;
-    margin: auto;
-    margin-top: 10px;
-}
-figure {
-    margin: 5px;
-    padding-top: 5px;
-}
-h1, h2, h3 {
-    margin: 0px;
-}
-.trem {
-    text-align: center;
-}
-.direito  h3, .esquerdo h3{
-    text-align: center;
-}
-.direito li, .esquerdo li {
-    padding-top: 20px;
-}
-.direito a, .esquerdo a {
+.login a {
     text-decoration: none;
-    color: black;
+    color: #3056B1;
+    text-align: end;
+}
+.pesquisa {
+    height: 32px;
+    width: 474px;
+    border: 1px solid rgb(140, 135, 135);
+}
+.pesquisa input {
+    height: 29px;
+    width: 385px;
+    border: none;
+}
+.pesquisa button {
+    background: #EAECF0;
+    border: 1px solid rgb(161, 159, 159);
+    font-weight: bolder;
+    line-height: 2;
+    height: 32px;
+    text-align: center;
+    width: 91px;
+}
+.pesquisa button:hover {
+    cursor: pointer;
+    background: #c5cfe3;
+}
+.pesquisa button:active {
+    box-shadow: inset 1px 2px 3px rgb(161, 159, 159);
+}
+
+/* MAIN */
+main {
+    display: grid;
+    grid-template: 
+    "conteudo principal aspecto" 600px
+    / auto 990px auto;
+}
+/* SECTION CONTEUDO */
+.topo, .topo2 {
+    display: flex;
+}
+.conteudo, .aspecto {
+    position: fixed;
+}
+.conteudo {
+    left: 20px;
+}
+.aspecto {
+    right: 100px;
+}
+
+/* SECTION ASPECTO */
+.aspecto {
+    width: 120px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+input[type="radio"] {
+  transform: scale(1.5); /* aumenta 1.5x o tamanho */
+  cursor: pointer;
+}
+label {
+    font-size: 17px;
 }
