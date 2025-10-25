@@ -6,7 +6,7 @@ body {
   color: #202122;
 }
 
-/* ======== CABEÇALHO ======== */
+/* ======== CABEÇALHO(NAV) ======== */
 .cabecalho {
   display: flex;
   align-items: center;
@@ -36,11 +36,15 @@ body {
   background: #eaecf0;
   border-left: 1px solid #a2a9b1;
   cursor: pointer;
+  height: 26px;
   padding: 5px 10px;
 }
 
 .pesquisa button:hover {
   background: #c8d1e0;
+}
+.pesquisa button:active {
+    box-shadow: inset 1px 1px 1px black;
 }
 
 .login a {
@@ -59,8 +63,6 @@ main {
 
 /* ======== CONTEÚDO ESQUERDA ======== */
 .conteudo {
-  background: #f8f9fa;
-  border: 1px solid #d3d3d3;
   padding: 10px;
   font-size: 14px;
 
@@ -84,7 +86,6 @@ main {
 .principal {
   background: #fff;
   padding: 15px 20px;
-  border: 1px solid #d3d3d3;
 }
 
 .artigo ul {
@@ -104,15 +105,24 @@ main {
   line-height: 1.6;
   margin-top: 10px;
 }
+.topo, .topo2 {
+    display: flex;
+    height: 25px;
+    gap: 10px;
+    align-items: center;
+}
+button {
+    height: 20px;
+    border: 1px solid rgb(194, 186, 186);
+}
+button:hover {
+    cursor: pointer;
+}
 
 /* ======== CONTEÚDO DIREITA ======== */
 .aspecto {
-  background: #f8f9fa;
-  border: 1px solid #d3d3d3;
   padding: 10px;
   font-size: 14px;
-
-  /* fixa no topo durante o scroll */
 }
 
 .aspecto form {
