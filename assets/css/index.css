@@ -65,7 +65,11 @@ main {
   gap: 20px;
   padding: 20px 40px;
 }
-
+hr {
+    border: none;
+    height: 1px;             /* define a espessura */
+    background-color: rgb(227, 227, 230);  /* define a cor */
+}
 /* ======== CONTEÚDO ESQUERDA ======== */
 .conteudo {
   padding: 10px;
